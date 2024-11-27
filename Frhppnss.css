@@ -79,10 +79,35 @@ header .fa-solid.fa-bars:hover {
     margin-top: 100px;
 }
 
+.homeartikel2 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("Images/headartikel2.jpg");
+    background-size: cover;
+    background-position: center;
+    fill-opacity: initial;
+    margin-top: 100px;
+}
+
+.homeartikel3 {
+    height: 70vh;
+    width: 100%;
+    background-image: url("Images/headartikel3.jpg");
+    background-size: cover;
+    background-position: center;
+    fill-opacity: initial;
+    margin-top: 100px;
+}
+
 /* tampilan galeri produk */
 .galeri {
     width: 100%;
-    margin-top: 150px;
+    margin-top: 100px;
+}
+
+.galeri .judul {
+    font-size: 20px;
+    text-align: center;
 }
 
 .galeri-kontener {
@@ -191,6 +216,7 @@ header .fa-solid.fa-bars:hover {
 
 .galeri-kontrol-previous {
     position: relative;
+    font-style: italic;
 }
 
 .galeri-kontrol-previous::before {
@@ -214,6 +240,7 @@ header .fa-solid.fa-bars:hover {
 
 .galeri-kontrol-next {
     position: relative;
+    font-style: italic;
 }
 
 .galeri-kontrol-next::before {
@@ -283,6 +310,68 @@ header .fa-solid.fa-bars:hover {
 
 }
 
+/* sidebar style */
+.wrap {
+    width: 1255px;
+    margin: 20px auto;
+}
+
+.sidebar {
+    float: left;
+    width: 300px;
+    margin-right: 40px;
+}
+
+.widget .foto {
+    border-radius: 8px;
+    width: 250px;
+}
+
+.sidebar .widget {
+    padding: 25px;
+    margin: 0 0 25px;
+    background: #7cad7c;
+    transition: all 0.5s ease;
+    border-radius: 15px;
+    border: 1px solid #000000;
+}
+
+.sidebar .widget:hover {
+    border-bottom: 4px solid ;
+}
+
+.sidebar .widget h2 {
+    padding: 0;
+    margin: 0 0 10px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.sidebar .widget p {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.sidebar .widget p:last-child {
+    margin: 0;
+}
+
+.sidebar .widget button {
+    background-color: #ffb0b0;
+    color: #000000;
+    padding: 12px 12px;
+    border-radius: 100px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar .widget button:hover {
+    background-color: #ffcccc;
+}
+
 /* tentang style */
 .tentang-beranda {
     box-sizing: border-box;
@@ -295,16 +384,11 @@ header .fa-solid.fa-bars:hover {
 }
 
 .tentang-beranda-konten {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
     margin: 65px auto;
 }
 
 .konten-beranda-tentang {
     flex: 1;
-    width: 600px;
     margin: 0px 25px;
 }
 
@@ -317,6 +401,7 @@ header .fa-solid.fa-bars:hover {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .konten-beranda-tentang button {
@@ -339,9 +424,9 @@ header .fa-solid.fa-bars:hover {
     flex: 1;
     width: 600px;
     margin: auto;
-    margin-right: 20px;
-    margin-left: 20px;
-    float: right;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 video {
@@ -352,7 +437,7 @@ video {
 
 /* review style */
 .review {
-    margin-top: 50px;
+    margin-top: 90px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -409,6 +494,124 @@ video {
     border-radius: 20px;
 }
 
+/* hubungi kami style */
+.hubungi-kami {
+    margin: 20px;
+}
+
+.hubungi-kami .judul {
+    font-size: 25px;
+    text-align: center;
+}
+
+.hubungi-kami td {
+    font-size: 16px;
+}
+
+.hubungikami-awalan h2 {
+    margin-top: -20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.hubungikami-awalan p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.hubungikami-awalan {
+    max-width: 700px;
+    max-height: 1000px;
+    margin: auto;
+    margin-top: 150px;
+    background: #ccffcc;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px #000001;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.input {
+    flex: 1 1 100px;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-size: 15px;
+    padding: 12px 12px 12px 0;
+}
+
+.submit button {
+    width: 100px;
+    background-color: #97d298;
+    color: #000000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+.submit button:hover {
+    background-color: #7cad7c;
+}
+
+.kontak {
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px;
+    width: 90%;
+    margin-top: 100px;
+
+}
+
+.email, .telepon, .instagram {
+    background-color: #ffcccc;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #000001;
+    width: 40%;
+    padding: 0;
+}
+
+.kontak li {
+    color: #000000;
+    width: auto;
+    text-align: center;
+    list-style-type: none;
+    padding: 5px;
+    position: relative;
+    font-size: 30px;
+}
+
+.kontak i {
+    background-color: #97d298;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 100px;
+}
+
+.kontak p {
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+}
+
 /* halaman tentang style */
 .tentang-awalan {
     box-sizing: border-box;
@@ -439,6 +642,7 @@ video {
     text-align: center;
     margin-right: 20px;
     background-color: #97d298;
+    text-transform: capitalize;
 }
 
 .tentang-konten p {
@@ -457,11 +661,31 @@ video {
 }
 
 /* produk style */
+.info-produk {
+    margin-top: 150px;
+}
+
+.info-produk h2 {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 25px;
+    text-align: center;
+    background-color: #97d298;
+    text-transform: capitalize;
+
+}
+
+.info-produk p {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
 .produk-galeri {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 3fr));
     gap: 40px;
-    margin-top: 180px;
+    margin-top: 50px;
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -488,7 +712,17 @@ video {
     margin: 10px;
     font-size: 18px;
     text-align: center;
+}
 
+.link-pembelian {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 16px; 
+}
+
+.link-pembelian a {
+    color: #7cad7c;
 }
 
 .produk p {
@@ -513,44 +747,48 @@ video {
 }
 
 /* artikel style */
-.artikel-1 {
+.artikel {
     margin: 20px;
 }
 
-.artikel-1 .judul {
+.info-artikel {
+    font-size: 12px;
+    text-align: center;
+}
+
+.konten-artikel .judul {
     font-size: 15px;
     text-align: center;
     background: #97d298;
-    top: 0; left: 0; right: 0;
+    text-transform: capitalize;
 }
 
-.artikel-1 p {
+.konten-artikel p {
     font-size: 15px;
     text-align: justify;
 }
 
 .artikel-1-kontener {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 10px;
 }
 
 .artikel-1-kontener .box {
     width: 45%;
-    box-sizing: border-box;
-    background-color: #ffb0b0;
     border-radius: 10px;
-
+    background-color: #ffb0b0;   
 }
 
-.artikel-1 h2 {
+.artikel-1-kontener h2 {
     font-size: 20px;
     text-align: center;
     background-color: #ffcccc;
-
 }
 
-.artikel-1 .box img {
+.konten-artikel .box img {
     height: 200px;
     position: relative;
     left: 50%;
@@ -558,17 +796,29 @@ video {
     border-radius: 10px;
 }
 
-.artikel-1-kontener .box li {
+.artikel li {
     font-size: 14px;
 }
 
+.konten-artikel h2 {
+    font-size: 20px;
+}
+
+.list p {
+    font-size: 12px;
+    margin-left: 20px;
+    margin-right: 30px;
+    list-style: decimal;
+}
+
 .bacajuga {
-    width: 50%;
+    width: 80%;
     outline-style: dashed;
     outline-color: #97d298;
     outline-width: 2px;
     border-radius: 10px;
     margin: 20px auto;
+    margin-top: 90px;
     padding: 5px;
 }
 
@@ -580,6 +830,7 @@ video {
 .bacajuga li {
     font-size: 15px;
     margin-left: 20px;
+    text-transform: capitalize;
 }
 
 .bacajuga a{
@@ -590,26 +841,25 @@ video {
 /* footer style */
 footer {
     background: #97d298;
-    padding-top: 50px;
-    position: relative;
-    width: 100%;
+    padding-top: 30px;
     margin-top: 120px;
+    top: 0; left: 0; right: 0;
 }
 
 .footer-kontener {
-    width: 1140px;
     margin: auto;
     display: flex;
     justify-content: center;
 }
 
 .footer-konten {
-    width: 33.3%;
-    margin-right: 100px;
+    width: 40%;
 }
 
 .footer-konten img {
-    width: 250px;
+    width: 200px;
+    padding-top: 25px;
+    margin-left: 100px;
 }
 
 .footer-konten h3 {
@@ -619,13 +869,12 @@ footer {
     text-transform: capitalize;
 }
 
-.footer-konten .list {
-    padding: 0;
-    color: #000000;
-}
-
 .footer-konten .list ul {
     text-align: center;
+}
+
+.footer-konten .list {
+    padding: 0;
 }
 
 .footer-konten .list li {
@@ -655,19 +904,18 @@ footer {
 .icon li {
     display: inline-block;
     text-align: center;
-    margin: 5px;
-    padding: 10px 10px;
+    padding: 5px;
+}
+
+.icon a {
     text-decoration: none;
-    background-color: #ffcccc;
-    border-radius: 100px;
 }
-
-.icon i {
+.icon .fa-instagram, .icon .fa-shop {
     color: #000000;
-    font-size: 25px;
+    font-size: 30px;
 }
 
-.icon a:hover {
+.icon .fa-instagram:hover , .icon .fa-shop:hover{
     color: #ccffcc;
 }
 
@@ -678,7 +926,7 @@ footer {
     margin-top: 20px;
 }
 
-.copyright p {
+.copyright  {
     color: #000000;
     text-align: center;
     text-decoration: none;
@@ -700,9 +948,41 @@ footer {
     .produk-galeri {
         grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
     }
+
+    .wrap {
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-right: 25px;
+        float: left;
+    }
+
+    .sidebar .widget {
+        padding: 5%;
+    }
+
+    .sidebar .foto {
+        width: 50%;
+    }
+
+    .tentang {
+        width: 120%;
+    }
+
+    .tentang-beranda-video {
+        width: 50%;
+    }
+
+    .review {
+        width: 95%;
+        margin-top: 50px;
+    }
 }
 
-@media (max-width:768px) {
+@media  (max-width:768px) {
 
     header .fa-solid.fa-bars {
         display: block;
@@ -731,6 +1011,41 @@ footer {
 
     .produk {
         font-size: 5px;
+    }
+
+    .wrap {
+        width: 80%;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-right: 25px;
+        float: left;
+    }
+
+    .sidebar .widget {
+        padding: 5%;
+    }
+
+    .sidebar .foto {
+        width: 50%;
+    }
+
+    .tentang {
+        width: 50%;
+    }
+
+    .tentang-beranda-video {
+        width: 50%;
+    }
+
+    .review {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .hubungi-kami {
+        width: 90%;
     }
 }
 
