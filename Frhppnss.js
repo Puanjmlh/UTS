@@ -19,7 +19,7 @@ class Carousel {
             el.classList.remove('galeri-produk-6');
             el.classList.remove('galeri-produk-7');
         });
-        this.carouselArray.slice (0, 5).forEach((el , i) => {
+        this.carouselArray.slice (0, 7).forEach((el , i) => {
             el.classList.add (`galeri-produk-${i+1}`);
         });
     }

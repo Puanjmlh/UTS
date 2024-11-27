@@ -106,7 +106,7 @@ header .fa-solid.fa-bars:hover {
 }
 
 .galeri .judul {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
 }
 
@@ -502,6 +502,12 @@ video {
 .hubungi-kami .judul {
     font-size: 25px;
     text-align: center;
+    margin-top: 100px;
+}
+
+.kontak-pribadi h2 {
+    font-size: 20px;
+
 }
 
 .hubungi-kami td {
@@ -512,6 +518,25 @@ video {
     margin-top: -20px;
     font-size: 25px;
     text-align: center;
+}
+
+.pesan {
+    text-align: center;
+}
+
+.pesan button{
+    width: 350px;
+    background-color: #ffb0b0;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.pesan button:hover {
+    background-color: #ffcccc;
+
 }
 
 .hubungikami-awalan p {
